@@ -1,0 +1,50 @@
+/*
+ * Created by SharpDevelop.
+ * User: Coach
+ * Date: 2/4/2019
+ * Time: 4:34 PM
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace boolean
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+//Input first and second numbers			
+Console.Write("Enter first num= "); 	
+int a= int.Parse(Console.ReadLine()); 	 
+Console.Write("Enter second num= ");     
+int b=int.Parse(Console.ReadLine());
+//end
+
+//functions begins
+bool A_greater= (a>b);
+bool equal=(a==b);
+//end 
+
+if (A_greater) {
+	Console.WriteLine("a is greater than b");
+}				
+
+else if (equal) { 
+		Console.WriteLine("a is equal to b"); 
+} 
+else {
+	Console.WriteLine("b is greater than a");
+}
+
+
+Console.WriteLine("Is a > b="+A_greater); //boolean for a is > b
+Console.WriteLine("Is a equal to b?= "+ equal); //boolean for a == b
+
+			
+Console.ReadLine();
+Console.ReadKey(true);
+
+  	}
+  }
+}
