@@ -1,0 +1,10 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		char character = '\u0048';
+            Console.WriteLine(character);
+}
+}
