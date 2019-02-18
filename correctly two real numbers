@@ -1,0 +1,15 @@
+using System;
+				
+//program,which compares correctly two real numbers with accuracy at least 0.000001
+          
+public class Program
+{
+	public static void Main()
+	{
+		float num1 = 45.45464545432f;
+		float num2= 45.45464545432f;
+		
+		bool result = Math.Abs(num1-num2) < 0.000001;
+		Console.WriteLine(result);
+	}
+}
